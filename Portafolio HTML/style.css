@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sobre {
+    border-left: 5px solid #00a8ff;
+}
+
+#experiencia {
+    border-left: 5px solid #4cd137;
+}
+
+#proyectos {
+    border-left: 5px solid #e1b12c;
+}
+
+#formacion {
+    border-left: 5px solid #e84118;
+}
+
+#redes {
+    border-left: 5px solid #9c88ff;
+}
+
+body {
+    
+    background: linear-gradient(135deg, #1e1e2f, #2c2c54);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo span {
+    color: #00a8ff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00a8ff;
+}
+
+.inicio {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00a8ff;
+    margin-bottom: 15px;
+}
+
+section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    border-left: 4px solid #00a8ff;
+    padding-left: 10px;
+}
+
+.card {
+    background: rgba(255,255,255,0.08);
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+.redes {
+    text-align: center;
+}
+
+.iconos-redes {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.iconos-redes a {
+    font-size: 2rem;
+    color: white;
+    transition: 0.3s;
+}
+
+.iconos-redes a:hover {
+    color: #00a8ff;
+    transform: scale(1.2);
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    opacity: 0.7;
+}
